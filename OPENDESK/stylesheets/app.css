@@ -1,0 +1,667 @@
+/* line 1, ../sass/_background.scss */
+* {
+  box-sizing: inherit;
+}
+
+/* line 3, ../sass/_background.scss */
+.back {
+  background: url("../img/opendesk_shot3_2045_edit.full.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 820px;
+}
+
+/* line 14, ../sass/_background.scss */
+.cache {
+  background-position: center center;
+  background-size: cover;
+  background-color: #000;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 820px;
+  z-index: 1;
+}
+
+/* line 28, ../sass/_background.scss */
+.back-text h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  margin-top: 260px;
+  margin-left: 470px;
+  width: 300px;
+  opacity: inherit;
+  line-height: 1.3;
+  position: absolute;
+  font-weight: 400;
+  text-shadow: 0 0 0 2px #cdcdce;
+  color: white;
+  z-index: 2;
+}
+/* line 43, ../sass/_background.scss */
+.back-text p {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 360px;
+  margin-left: 470px;
+  width: 360px;
+  position: absolute;
+  line-height: 1.6;
+  font-weight: 400;
+  text-shadow: 0 0 0 2px #cdcdce;
+  color: white;
+  z-index: 2;
+}
+
+/* line 58, ../sass/_background.scss */
+.back-btn {
+  margin-top: 480px;
+  min-width: 176px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 470px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.33333;
+  cursor: pointer;
+  background: #008955;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  border: 2px solid #008955;
+  z-index: 2;
+}
+
+/* line 79, ../sass/_background.scss */
+.back-2 {
+  background: url("../img/opendesk_homepage_maker-feature_renatus.full.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 1260px;
+  width: 100%;
+  height: 820px;
+}
+
+/* line 92, ../sass/_background.scss */
+.back-text-2 h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  margin-top: 205px;
+  margin-left: 470px;
+  width: 330px;
+  opacity: inherit;
+  line-height: 1.3;
+  position: absolute;
+  font-weight: 400;
+  text-shadow: 0 0 0.1rem #cdcdce;
+  color: white;
+  z-index: 2;
+}
+/* line 107, ../sass/_background.scss */
+.back-text-2 p {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 305px;
+  margin-left: 470px;
+  width: 360px;
+  position: absolute;
+  line-height: 1.6;
+  font-weight: 400;
+  text-shadow: 0 0 0.1rem #cdcdce;
+  color: white;
+  z-index: 2;
+}
+
+/* line 122, ../sass/_background.scss */
+.back-btn-2 {
+  margin-top: 370px;
+  min-width: 176px;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  left: 860px;
+  line-height: 1.33333;
+  cursor: pointer;
+  background: #008955;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  border: 2px solid #008955;
+}
+/* line 137, ../sass/_background.scss */
+.back-btn-2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Robot;
+  font-weight: 400px;
+  text-shadow: 0 0 0.05rem #cfcfd0;
+}
+
+/* line 147, ../sass/_background.scss */
+.back-3 {
+  background-color: #f1f1f1;
+  background-position: center center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 2080px;
+  width: 100%;
+  height: 570px;
+  z-index: 0;
+}
+
+/* line 160, ../sass/_background.scss */
+.back-4 {
+  margin-top: 3650px;
+  background: url("../img/opendesk_homepage_workplace-feature_old-oak.full.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 820px;
+}
+
+/* line 173, ../sass/_background.scss */
+.back-text-3 h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  margin-top: 205px;
+  margin-left: 470px;
+  width: 400px;
+  opacity: inherit;
+  line-height: 1.3;
+  position: absolute;
+  font-weight: 400;
+  text-shadow: 0 0 0 2px #cdcdce;
+  color: white;
+  z-index: 2;
+}
+/* line 188, ../sass/_background.scss */
+.back-text-3 p {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 305px;
+  margin-left: 470px;
+  width: 360px;
+  position: absolute;
+  line-height: 1.6;
+  font-weight: 400;
+  text-shadow: 0 0 0 2px #cdcdce;
+  color: white;
+  z-index: 2;
+}
+
+/* line 203, ../sass/_background.scss */
+.back-btn-3 {
+  margin-top: 530px;
+  min-width: 182px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 470px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.33333;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  border: 2px solid #dcdcdd;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.77);
+  color: #323233;
+}
+
+/* line 1, ../sass/_inter.scss */
+.inter {
+  width: 15%;
+  margin-left: 355px;
+  padding-right: 57px;
+  margin-top: 870px;
+  float: left;
+  padding: 60px 50px 5px 50px;
+}
+/* line 9, ../sass/_inter.scss */
+.inter img {
+  width: 100%;
+  position: block;
+}
+/* line 14, ../sass/_inter.scss */
+.inter a {
+  z-index: 5;
+  width: 385px;
+  height: 335px;
+  padding-left: 0;
+  margin-left: -50px;
+  margin-top: -230px;
+  padding-top: 0;
+  display: block;
+  position: absolute;
+  border: 1px solid #f8f8f9;
+}
+/* line 27, ../sass/_inter.scss */
+.inter a:hover {
+  border-color: #9EF9DA;
+  transition: box-shadow .2s,color .2s;
+}
+
+/* line 34, ../sass/_inter.scss */
+.inter-btn h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 300;
+}
+/* line 40, ../sass/_inter.scss */
+.inter-btn p {
+  text-align: center;
+  padding-left: 0px;
+  font-size: 16px;
+}
+
+/* line 47, ../sass/_inter.scss */
+.inter-2 {
+  width: 15%;
+  padding-right: 57px;
+  margin-left: 30px;
+  margin-top: 870px;
+  margin-bottom: 50px;
+  float: left;
+  padding: 60px 50px 5px 50px;
+}
+/* line 56, ../sass/_inter.scss */
+.inter-2 img {
+  width: 100%;
+  position: block;
+}
+/* line 61, ../sass/_inter.scss */
+.inter-2 a {
+  z-index: 5;
+  width: 385px;
+  height: 335px;
+  padding-left: 0;
+  margin-left: -50px;
+  margin-top: -230px;
+  padding-top: 0;
+  display: block;
+  position: absolute;
+  border: 1px solid #f8f8f9;
+}
+/* line 74, ../sass/_inter.scss */
+.inter-2 a:hover {
+  border-color: #9EF9DA;
+  transition: box-shadow .2s,color .2s;
+}
+
+/* line 81, ../sass/_inter.scss */
+.inter-btn-2 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 300;
+}
+/* line 87, ../sass/_inter.scss */
+.inter-btn-2 p {
+  text-align: center;
+  padding-left: 0px;
+  font-size: 16px;
+}
+
+/* line 94, ../sass/_inter.scss */
+.inter-3 {
+  width: 15%;
+  padding-right: 57px;
+  margin-right: 314px;
+  margin-top: 870px;
+  margin-bottom: 50px;
+  float: right;
+  padding: 60px 50px 5px 50px;
+}
+/* line 103, ../sass/_inter.scss */
+.inter-3 img {
+  width: 100%;
+  position: block;
+}
+/* line 108, ../sass/_inter.scss */
+.inter-3 a {
+  z-index: 5;
+  width: 385px;
+  height: 335px;
+  padding-left: 0;
+  margin-left: -50px;
+  margin-top: -230px;
+  padding-top: 0;
+  display: block;
+  position: absolute;
+  border: 1px solid #f8f8f9;
+}
+/* line 121, ../sass/_inter.scss */
+.inter-3 a:hover {
+  border-color: #9EF9DA;
+  transition: box-shadow .2s,color .2s;
+}
+
+/* line 128, ../sass/_inter.scss */
+.inter-btn-3 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 300;
+}
+/* line 134, ../sass/_inter.scss */
+.inter-btn-3 p {
+  text-align: center;
+  padding-left: 0px;
+  font-size: 16px;
+}
+
+/* line 142, ../sass/_inter.scss */
+.work {
+  width: 100%;
+  margin-top: 65px;
+  text-align: center;
+  positon: absolute;
+  z-index: 2;
+}
+/* line 149, ../sass/_inter.scss */
+.work h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+/* line 157, ../sass/_inter.scss */
+.inter-4 {
+  width: 15%;
+  margin-left: 315px;
+  padding-right: 57px;
+  margin-top: 150px;
+  float: left;
+  padding: 60px 15px 5px 50px;
+}
+
+/* line 167, ../sass/_inter.scss */
+.inter-btn-4 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+/* line 176, ../sass/_inter.scss */
+.inter-btn-4 p {
+  text-align: center;
+  padding-left: 0px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 15px;
+}
+/* line 184, ../sass/_inter.scss */
+.inter-btn-4 a {
+  text-decoration: none;
+  color: #008955;
+  font-family: Roboto;
+}
+/* line 190, ../sass/_inter.scss */
+.inter-btn-4 a:hover {
+  color: #03754F;
+  text-decoration: underline;
+}
+
+/* line 196, ../sass/_inter.scss */
+.inter-5 {
+  width: 15%;
+  padding-right: 57px;
+  margin-top: 150px;
+  float: left;
+  padding: 60px 30px 5px 0px;
+}
+
+/* line 205, ../sass/_inter.scss */
+.inter-btn-5 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+/* line 214, ../sass/_inter.scss */
+.inter-btn-5 p {
+  text-align: center;
+  padding-left: 0px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 223, ../sass/_inter.scss */
+.inter-6 {
+  width: 15%;
+  padding-right: 57px;
+  margin-top: 150px;
+  float: left;
+  padding: 60px 0px 5px 0px;
+}
+
+/* line 232, ../sass/_inter.scss */
+.inter-btn-6 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+/* line 241, ../sass/_inter.scss */
+.inter-btn-6 p {
+  text-align: center;
+  padding-left: 0px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 250, ../sass/_inter.scss */
+.inter-7 {
+  width: 15%;
+  padding-right: 57px;
+  margin-top: 150px;
+  float: left;
+  padding: 60px 0px 5px 40px;
+}
+
+/* line 259, ../sass/_inter.scss */
+.inter-btn-7 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+/* line 268, ../sass/_inter.scss */
+.inter-btn-7 p {
+  text-align: center;
+  padding-left: 0px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 277, ../sass/_inter.scss */
+.video {
+  width: auto;
+  margin-left: 300px;
+  margin-top: 2680px;
+  text-align: center;
+  position: absolute;
+  z-index: 3;
+}
+
+/* line 286, ../sass/_inter.scss */
+.inter-8 {
+  margin-left: 400px;
+  margin-top: 2130px;
+  margin-bottom: 30px;
+  float: left;
+  padding: 100px 50px 5px 50px;
+}
+/* line 293, ../sass/_inter.scss */
+.inter-8 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 299, ../sass/_inter.scss */
+.inter-9 {
+  margin-top: 2130px;
+  margin-right: 974px;
+  float: right;
+  padding: 100px 50px 5px 50px;
+}
+/* line 305, ../sass/_inter.scss */
+.inter-9 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 311, ../sass/_inter.scss */
+.inter-10 {
+  float: right;
+  margin-top: -86px;
+  margin-right: 700px;
+  padding: 0px 50px 5px 50px;
+}
+/* line 317, ../sass/_inter.scss */
+.inter-10 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 323, ../sass/_inter.scss */
+.inter-11 {
+  float: right;
+  padding: 0px 50px 5px 50px;
+  margin-top: -86px;
+  margin-right: 400px;
+}
+/* line 329, ../sass/_inter.scss */
+.inter-11 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 335, ../sass/_inter.scss */
+.inter-12 {
+  width: 100%;
+  padding-right: 57px;
+  margin-top: 890px;
+  float: left;
+  padding: 60px 0px 5px 40px;
+}
+
+/* line 344, ../sass/_inter.scss */
+.inter-btn-12 h2 {
+  text-align: center;
+  padding-left: 0px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 26px;
+  padding-bottom: 10px;
+  color: #7F7F7F;
+}
+/* line 354, ../sass/_inter.scss */
+.inter-btn-12 p {
+  text-align: center;
+  padding-left: 618px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 661px;
+  display: block;
+  color: #7F7F7F;
+  line-height: 24px;
+}
+
+/* line 367, ../sass/_inter.scss */
+.inter-13 {
+  float: left;
+  margin-left: 495px;
+  margin-top: 45px;
+  padding: 0px 50px 5px 50px;
+}
+/* line 373, ../sass/_inter.scss */
+.inter-13 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 379, ../sass/_inter.scss */
+.inter-14 {
+  float: right;
+  margin-top: 45px;
+  margin-right: 992px;
+  padding: 0px 50px 5px 50px;
+}
+/* line 385, ../sass/_inter.scss */
+.inter-14 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 391, ../sass/_inter.scss */
+.inter-15 {
+  float: right;
+  margin-top: -86px;
+  margin-right: 806px;
+  padding: 0px 50px 5px 50px;
+}
+/* line 397, ../sass/_inter.scss */
+.inter-15 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 403, ../sass/_inter.scss */
+.inter-16 {
+  float: right;
+  margin-top: -86px;
+  margin-right: 590px;
+  padding: 0px 50px 5px 50px;
+}
+/* line 409, ../sass/_inter.scss */
+.inter-16 img {
+  width: 100%;
+  position: block;
+}
+
+/* line 415, ../sass/_inter.scss */
+.inter-17 {
+  float: right;
+  margin-top: -86px;
+  margin-right: 420px;
+  padding: 0px 50px 5px 50px;
+}
+/* line 421, ../sass/_inter.scss */
+.inter-17 img {
+  width: 100%;
+  position: block;
+}
