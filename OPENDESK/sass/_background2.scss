@@ -293,9 +293,10 @@
 }
 
 .logo {
-	padding-top: 45px;
-    height: 75px;
+	padding-top: 18px;
     text-align: center;
+    color: #FFF;
+    padding-bottom: 15px;
 
     a {
         margin-top: 30px;
@@ -305,6 +306,10 @@
 	    text-decoration: none;
 	    font-size: 25px;
 	    letter-spacing: 2px;
+    }
+
+    img {
+    	width: 10%;
     }
 }
 
@@ -362,8 +367,8 @@
     }
 }
 
-.inter-btn-4 {
-	margin-top: -84px;
+.inter-btn-4 a {
+   	margin-top: -84px;
 	background-color: #fff;
     display: block;
     max-width: 420px;
@@ -373,13 +378,10 @@
     padding-top: 15px;
     border-radius: 3px;
     border: 2px solid #d0d0d0;
-    transition: border-color .2s;
-
-    a {
-    	text-decoration: none;
-    	color: #777;
-    	font-family: Roboto;
-    	font-size: 18px;
-    	font-weight: 400;
-    }
+	transition: border-color .2s;
+   	text-decoration: none;
+   	color: #777;
+   	font-family: Roboto;
+   	font-size: 18px;
+    font-weight: 400;
 }

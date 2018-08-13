@@ -308,11 +308,12 @@
 
 /* line 295, ../sass/_background2.scss */
 .logo {
-  padding-top: 45px;
-  height: 75px;
+  padding-top: 18px;
   text-align: center;
+  color: #FFF;
+  padding-bottom: 15px;
 }
-/* line 300, ../sass/_background2.scss */
+/* line 301, ../sass/_background2.scss */
 .logo a {
   margin-top: 30px;
   text-align: center;
@@ -322,12 +323,16 @@
   font-size: 25px;
   letter-spacing: 2px;
 }
-
 /* line 311, ../sass/_background2.scss */
+.logo img {
+  width: 10%;
+}
+
+/* line 316, ../sass/_background2.scss */
 .menu {
   text-align: center;
 }
-/* line 314, ../sass/_background2.scss */
+/* line 319, ../sass/_background2.scss */
 .menu a {
   font-family: Roboto;
   font-weight: 300;
@@ -337,12 +342,12 @@
   color: #FFF;
 }
 
-/* line 324, ../sass/_background2.scss */
+/* line 329, ../sass/_background2.scss */
 .menu-item:hover {
   text-decoration-color: #B7B7B7;
 }
 
-/* line 328, ../sass/_background2.scss */
+/* line 333, ../sass/_background2.scss */
 .menu-item:not(:first-child):before {
   transition-duration: 0.3s;
   content: '|';
@@ -351,12 +356,12 @@
   padding: 0 15px;
 }
 
-/* line 336, ../sass/_background2.scss */
+/* line 341, ../sass/_background2.scss */
 .inter-block-4 {
   margin-top: 100px;
   border-top: 1px dashed #fff;
 }
-/* line 340, ../sass/_background2.scss */
+/* line 345, ../sass/_background2.scss */
 .inter-block-4 p {
   margin-top: 55px;
   float: right;
@@ -367,23 +372,23 @@
   color: #FFF;
 }
 
-/* line 351, ../sass/_background2.scss */
+/* line 356, ../sass/_background2.scss */
 .inter-btn-3 {
   margin-left: 976px;
 }
-/* line 354, ../sass/_background2.scss */
+/* line 359, ../sass/_background2.scss */
 .inter-btn-3 a {
   color: #FFF;
   font-family: Roboto;
   font-size: 16px;
 }
-/* line 360, ../sass/_background2.scss */
+/* line 365, ../sass/_background2.scss */
 .inter-btn-3 a:hover {
   text-decoration-color: #B7B7B7;
 }
 
-/* line 365, ../sass/_background2.scss */
-.inter-btn-4 {
+/* line 370, ../sass/_background2.scss */
+.inter-btn-4 a {
   margin-top: -84px;
   background-color: #fff;
   display: block;
@@ -395,9 +400,6 @@
   border-radius: 3px;
   border: 2px solid #d0d0d0;
   transition: border-color .2s;
-}
-/* line 378, ../sass/_background2.scss */
-.inter-btn-4 a {
   text-decoration: none;
   color: #777;
   font-family: Roboto;
