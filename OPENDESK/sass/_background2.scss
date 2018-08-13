@@ -1,0 +1,385 @@
+.back {
+	margin-top: -10px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 850px;
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.cache {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: #000;
+	opacity: 0.3;
+}
+
+.back-block {
+	position: absolute;
+	top: 0;
+
+	h2 {
+		font-family: Roboto;
+		color: #FFF;
+		margin-left: 470px;
+		margin-top: 255px;
+		font-weight: 400;
+		width: 300px;
+		line-height: 1.3;
+		font-size: 28px;
+	}
+
+	p {
+		font-family: Roboto;
+		color: #FFF;
+		font-size: 20px;
+		width: 360px;
+		margin-left: 470px;
+		font-wewight: 400;
+		line-height: 1.6;
+	}
+}
+
+.back-btn {
+    min-width: 176px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 470px;
+    font-size: 20px;
+    line-height: 1.33333;
+    cursor: pointer;
+    background: #008955;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 2px solid #008955;
+
+    a {
+    	color: #FFF;
+    	text-decoration: none;
+    	font-weight: 400;
+    	font-family: Roboto;
+    }
+}
+
+.inter {
+	padding-top: 840px;
+	height: 437px;
+}
+
+.inter-block {
+	margin-top: 50px;
+	margin-left: 340px;
+	float: left;
+	width: 5%;
+
+	img {
+		width: 280%;
+		margin-left: 74px;
+		margin-top: 50px;
+	}
+
+	a {
+		width: 331px;
+		height: 268px;
+		position: absolute;
+		border: 1px solid #f8f8f9;
+		padding: 50px 40px 5px 40px;
+	}
+
+	a:hover {
+		border-color: #9EF9DA;
+		transition: box-shadow .2s,color .2s;
+	}
+}
+
+.inter-btn {
+	text-align: center;
+	min-width: 250px;
+	margin-left: 81px;
+
+	h2 {
+		font-family: Roboto;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	p {
+		font-family: Roboto;
+		font-weight: 300;
+	}
+}
+
+.background {
+	background-color: #f1f1f1;
+}
+
+.inter-2 {
+	margin-top: 840px;
+	height: 500px;
+
+	h2 {
+		text-align: center;
+    	padding-top: 53px;
+    	font-family: Roboto;
+    	font-weight: 300;
+    	text-transform: uppercase;
+    	font-size: 18px;
+	}
+
+	.inter-block-2 {
+		width: 9%;
+		float: left;
+		margin-left: 235px;
+		margin-top: 20px;
+		text-align: center;
+
+		img {
+			width: 60%;
+			height: 105px;
+			margin-left: 80px;
+		}
+	
+		.inter-btn {
+	    	text-align: center;
+    		min-width: 250px;
+    		margin-left: 0;
+
+    		h2 {
+    			font-family: Roboto;
+				font-size: 19px;
+				font-weight: 400;
+				text-transform: none;
+				padding-top: 0;
+				margin-left: 18px;
+    		}
+
+    		a {
+    			text-decoration: none;
+    			color: #008955;
+    			cursor: pointer;
+    		}
+
+    		a:hover {
+    			text-decoration: underline;
+    			text-decoration-color: green;
+    		}
+
+    		p {
+    			min-width: 295px;
+    			margin-left: -10px;
+    			font-size: 14px;
+    		}
+		}
+	}
+
+	.inter-btn-2 {
+		margin-top: 300px;
+
+		a {
+			min-width: 176px;
+    		padding-top: 8px;
+    		margin-left: 850px;
+    		padding-bottom: 8px;
+    		font-size: 18px;
+    		font-family: Roboto;
+    		color: #FFF;
+    		font-weight: 400;
+    		line-height: 1.33333;
+    		cursor: pointer;
+    		background: #008955;
+    		text-align: center;
+    		border-radius: 4px;
+    		position: absolute;
+    		border: 2px solid #008955;
+    		text-decoration: none;
+		}
+
+		a:hover {
+			background-color: #166816;
+		}
+	}
+}
+
+.video {
+	margin-top: 35px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.brand {
+	margin-left: 430px;
+	margin-bottom: 65px;
+
+	img {
+		padding-right: 140px;
+	}
+}
+
+.back-btn-2 {
+    background-color: #dcdcdd;
+    border: 2px solid #dcdcdd;
+	min-width: 185px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 470px;
+    font-size: 18px;
+    line-height: 1.33333;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+
+    a {
+    	color: #323233;
+    	text-decoration: none;
+    	font-weight: 400;
+    	font-family: Roboto;
+    }
+
+    a:hover {
+    	backgrund-color: #FFF;
+    }
+}
+
+.inter-3 {
+	margin-top: 900px;
+}
+
+.inter-block-3 {
+	h2 {
+		margin-top: 1000px;
+	    text-align: center;
+	    font-family: Roboto;
+	    font-weight: 400;
+	    color: #4E4E4E;
+	    font-size: 28px;
+	}
+
+	p {
+		text-align: center;
+	    font-family: Roboto;
+	    font-weight: 400;
+	    font-size: 20px;
+	    max-width: 673px;
+	    margin-left: 615px;
+	    color: #4E4E4E;
+	    line-height: 1.4;
+	}
+}
+
+.brand-2 {
+	margin-left: 485px;
+	margin-top: 100px;
+	margin-bottom: 65px;
+
+	img {
+		padding-right: 110px;
+	}
+}
+
+.inter-4 {
+	height: 425px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+    background-color: #69696a;
+}
+
+.logo {
+	padding-top: 45px;
+    height: 75px;
+    text-align: center;
+
+    a {
+        margin-top: 30px;
+	    text-align: center;
+	    font-family: Roboto;
+	    color: #FFF;
+	    text-decoration: none;
+	    font-size: 25px;
+	    letter-spacing: 2px;
+    }
+}
+
+.menu {
+	text-align: center;
+
+	a {
+		font-family: Roboto;
+		font-weight: 300;
+		font-size: 18px;
+		text-decoration: underline;
+		text-decoration-color: grey;
+		color: #FFF;
+	}
+}
+
+.menu-item:hover {
+	text-decoration-color: #B7B7B7;
+}
+
+.menu-item:not(:first-child):before {
+	transition-duration: 0.3s;
+	content: '|';
+	color: #FFF;
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.inter-block-4 {
+	margin-top: 100px;
+	border-top: 1px dashed #fff;
+
+	p {
+		margin-top: 55px;
+		float: right;
+	    margin-right: 480px;
+	    font-family: Roboto;
+	    max-width: 450px;
+	    line-height: 1.6;
+	    color: #FFF;
+	}
+}
+
+.inter-btn-3 {
+	margin-left: 976px;
+
+	a {
+		color: #FFF;
+		font-family: Roboto;
+		font-size: 16px;
+	}
+
+    a:hover {
+    	text-decoration-color: #B7B7B7;
+    }
+}
+
+.inter-btn-4 {
+	margin-top: -84px;
+	background-color: #fff;
+    display: block;
+    max-width: 420px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-left: 490px;
+    padding-top: 15px;
+    border-radius: 3px;
+    border: 2px solid #d0d0d0;
+    transition: border-color .2s;
+
+    a {
+    	text-decoration: none;
+    	color: #777;
+    	font-family: Roboto;
+    	font-size: 18px;
+    	font-weight: 400;
+    }
+}

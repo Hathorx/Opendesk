@@ -1,0 +1,406 @@
+/* line 1, ../sass/_background2.scss */
+.back {
+  margin-top: -10px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 850px;
+}
+/* line 8, ../sass/_background2.scss */
+.back img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../sass/_background2.scss */
+.cache {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+/* line 23, ../sass/_background2.scss */
+.back-block {
+  position: absolute;
+  top: 0;
+}
+/* line 27, ../sass/_background2.scss */
+.back-block h2 {
+  font-family: Roboto;
+  color: #FFF;
+  margin-left: 470px;
+  margin-top: 255px;
+  font-weight: 400;
+  width: 300px;
+  line-height: 1.3;
+  font-size: 28px;
+}
+/* line 38, ../sass/_background2.scss */
+.back-block p {
+  font-family: Roboto;
+  color: #FFF;
+  font-size: 20px;
+  width: 360px;
+  margin-left: 470px;
+  font-wewight: 400;
+  line-height: 1.6;
+}
+
+/* line 49, ../sass/_background2.scss */
+.back-btn {
+  min-width: 176px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 470px;
+  font-size: 20px;
+  line-height: 1.33333;
+  cursor: pointer;
+  background: #008955;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  border: 2px solid #008955;
+}
+/* line 63, ../sass/_background2.scss */
+.back-btn a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+/* line 71, ../sass/_background2.scss */
+.inter {
+  padding-top: 840px;
+  height: 437px;
+}
+
+/* line 76, ../sass/_background2.scss */
+.inter-block {
+  margin-top: 50px;
+  margin-left: 340px;
+  float: left;
+  width: 5%;
+}
+/* line 82, ../sass/_background2.scss */
+.inter-block img {
+  width: 280%;
+  margin-left: 74px;
+  margin-top: 50px;
+}
+/* line 88, ../sass/_background2.scss */
+.inter-block a {
+  width: 331px;
+  height: 268px;
+  position: absolute;
+  border: 1px solid #f8f8f9;
+  padding: 50px 40px 5px 40px;
+}
+/* line 96, ../sass/_background2.scss */
+.inter-block a:hover {
+  border-color: #9EF9DA;
+  transition: box-shadow .2s,color .2s;
+}
+
+/* line 102, ../sass/_background2.scss */
+.inter-btn {
+  text-align: center;
+  min-width: 250px;
+  margin-left: 81px;
+}
+/* line 107, ../sass/_background2.scss */
+.inter-btn h2 {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+/* line 113, ../sass/_background2.scss */
+.inter-btn p {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+/* line 119, ../sass/_background2.scss */
+.background {
+  background-color: #f1f1f1;
+}
+
+/* line 123, ../sass/_background2.scss */
+.inter-2 {
+  margin-top: 840px;
+  height: 500px;
+}
+/* line 127, ../sass/_background2.scss */
+.inter-2 h2 {
+  text-align: center;
+  padding-top: 53px;
+  font-family: Roboto;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/* line 136, ../sass/_background2.scss */
+.inter-2 .inter-block-2 {
+  width: 9%;
+  float: left;
+  margin-left: 235px;
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 143, ../sass/_background2.scss */
+.inter-2 .inter-block-2 img {
+  width: 60%;
+  height: 105px;
+  margin-left: 80px;
+}
+/* line 149, ../sass/_background2.scss */
+.inter-2 .inter-block-2 .inter-btn {
+  text-align: center;
+  min-width: 250px;
+  margin-left: 0;
+}
+/* line 154, ../sass/_background2.scss */
+.inter-2 .inter-block-2 .inter-btn h2 {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 0;
+  margin-left: 18px;
+}
+/* line 163, ../sass/_background2.scss */
+.inter-2 .inter-block-2 .inter-btn a {
+  text-decoration: none;
+  color: #008955;
+  cursor: pointer;
+}
+/* line 169, ../sass/_background2.scss */
+.inter-2 .inter-block-2 .inter-btn a:hover {
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+/* line 174, ../sass/_background2.scss */
+.inter-2 .inter-block-2 .inter-btn p {
+  min-width: 295px;
+  margin-left: -10px;
+  font-size: 14px;
+}
+/* line 182, ../sass/_background2.scss */
+.inter-2 .inter-btn-2 {
+  margin-top: 300px;
+}
+/* line 185, ../sass/_background2.scss */
+.inter-2 .inter-btn-2 a {
+  min-width: 176px;
+  padding-top: 8px;
+  margin-left: 850px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  font-family: Roboto;
+  color: #FFF;
+  font-weight: 400;
+  line-height: 1.33333;
+  cursor: pointer;
+  background: #008955;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  border: 2px solid #008955;
+  text-decoration: none;
+}
+/* line 204, ../sass/_background2.scss */
+.inter-2 .inter-btn-2 a:hover {
+  background-color: #166816;
+}
+
+/* line 210, ../sass/_background2.scss */
+.video {
+  margin-top: 35px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* line 216, ../sass/_background2.scss */
+.brand {
+  margin-left: 430px;
+  margin-bottom: 65px;
+}
+/* line 220, ../sass/_background2.scss */
+.brand img {
+  padding-right: 140px;
+}
+
+/* line 225, ../sass/_background2.scss */
+.back-btn-2 {
+  background-color: #dcdcdd;
+  border: 2px solid #dcdcdd;
+  min-width: 185px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 470px;
+  font-size: 18px;
+  line-height: 1.33333;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+}
+/* line 239, ../sass/_background2.scss */
+.back-btn-2 a {
+  color: #323233;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Roboto;
+}
+/* line 246, ../sass/_background2.scss */
+.back-btn-2 a:hover {
+  backgrund-color: #FFF;
+}
+
+/* line 251, ../sass/_background2.scss */
+.inter-3 {
+  margin-top: 900px;
+}
+
+/* line 256, ../sass/_background2.scss */
+.inter-block-3 h2 {
+  margin-top: 1000px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #4E4E4E;
+  font-size: 28px;
+}
+/* line 265, ../sass/_background2.scss */
+.inter-block-3 p {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 673px;
+  margin-left: 615px;
+  color: #4E4E4E;
+  line-height: 1.4;
+}
+
+/* line 277, ../sass/_background2.scss */
+.brand-2 {
+  margin-left: 485px;
+  margin-top: 100px;
+  margin-bottom: 65px;
+}
+/* line 282, ../sass/_background2.scss */
+.brand-2 img {
+  padding-right: 110px;
+}
+
+/* line 287, ../sass/_background2.scss */
+.inter-4 {
+  height: 425px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: #69696a;
+}
+
+/* line 295, ../sass/_background2.scss */
+.logo {
+  padding-top: 45px;
+  height: 75px;
+  text-align: center;
+}
+/* line 300, ../sass/_background2.scss */
+.logo a {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Roboto;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+/* line 311, ../sass/_background2.scss */
+.menu {
+  text-align: center;
+}
+/* line 314, ../sass/_background2.scss */
+.menu a {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: #FFF;
+}
+
+/* line 324, ../sass/_background2.scss */
+.menu-item:hover {
+  text-decoration-color: #B7B7B7;
+}
+
+/* line 328, ../sass/_background2.scss */
+.menu-item:not(:first-child):before {
+  transition-duration: 0.3s;
+  content: '|';
+  color: #FFF;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+/* line 336, ../sass/_background2.scss */
+.inter-block-4 {
+  margin-top: 100px;
+  border-top: 1px dashed #fff;
+}
+/* line 340, ../sass/_background2.scss */
+.inter-block-4 p {
+  margin-top: 55px;
+  float: right;
+  margin-right: 480px;
+  font-family: Roboto;
+  max-width: 450px;
+  line-height: 1.6;
+  color: #FFF;
+}
+
+/* line 351, ../sass/_background2.scss */
+.inter-btn-3 {
+  margin-left: 976px;
+}
+/* line 354, ../sass/_background2.scss */
+.inter-btn-3 a {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+}
+/* line 360, ../sass/_background2.scss */
+.inter-btn-3 a:hover {
+  text-decoration-color: #B7B7B7;
+}
+
+/* line 365, ../sass/_background2.scss */
+.inter-btn-4 {
+  margin-top: -84px;
+  background-color: #fff;
+  display: block;
+  max-width: 420px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-left: 490px;
+  padding-top: 15px;
+  border-radius: 3px;
+  border: 2px solid #d0d0d0;
+  transition: border-color .2s;
+}
+/* line 378, ../sass/_background2.scss */
+.inter-btn-4 a {
+  text-decoration: none;
+  color: #777;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
