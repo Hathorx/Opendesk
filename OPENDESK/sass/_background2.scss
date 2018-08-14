@@ -1,7 +1,18 @@
+/***************\
+	BASE
+\***************/
+
+
+body {
+	margin: 0;
+}
+
+/***************\
+	BACK
+\***************/
+
 .back {
-	margin-top: -10px;
-	left: 0;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 850px;
 
@@ -41,7 +52,7 @@
 		font-size: 20px;
 		width: 360px;
 		margin-left: 470px;
-		font-wewight: 400;
+		font-weight: 400;
 		line-height: 1.6;
 	}
 }
@@ -68,29 +79,40 @@
     }
 }
 
+.back-btn:hover {
+	background-color: #166816;
+}
+
+/***************\
+	INTER-DIV
+\***************/
+
 .inter {
-	padding-top: 840px;
 	height: 437px;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .inter-block {
-	margin-top: 50px;
-	margin-left: 340px;
-	float: left;
-	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 50px;
+	width: 19%;
+	display: inline-block;
 
 	img {
-		width: 280%;
-		margin-left: 74px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 50px;
 	}
 
 	a {
-		width: 331px;
+		width: 15%;
 		height: 268px;
 		position: absolute;
 		border: 1px solid #f8f8f9;
-		padding: 50px 40px 5px 40px;
+		padding: 50px 40px 30px 36px;
 	}
 
 	a:hover {
@@ -101,8 +123,9 @@
 
 .inter-btn {
 	text-align: center;
-	min-width: 250px;
-	margin-left: 81px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 
 	h2 {
 		font-family: Roboto;
@@ -118,38 +141,44 @@
 
 .background {
 	background-color: #f1f1f1;
+	height: 500px;
 }
 
 .inter-2 {
-	margin-top: 840px;
-	height: 500px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 50px;
 
 	h2 {
 		text-align: center;
     	padding-top: 53px;
     	font-family: Roboto;
     	font-weight: 300;
+    	margin-right: auto;
+    	margin-left: auto;
     	text-transform: uppercase;
     	font-size: 18px;
+    	margin-top: 0;
 	}
 
 	.inter-block-2 {
-		width: 9%;
-		float: left;
-		margin-left: 235px;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
 		margin-top: 20px;
 		text-align: center;
 
 		img {
-			width: 60%;
+			width: 50%;
 			height: 105px;
-			margin-left: 80px;
+			text-align: center;
 		}
 	
 		.inter-btn {
 	    	text-align: center;
-    		min-width: 250px;
-    		margin-left: 0;
+	    	width: 78%;
 
     		h2 {
     			font-family: Roboto;
@@ -157,7 +186,8 @@
 				font-weight: 400;
 				text-transform: none;
 				padding-top: 0;
-				margin-left: 18px;
+				margin-left: auto;
+				margin-right: auto;
     		}
 
     		a {
@@ -172,22 +202,20 @@
     		}
 
     		p {
-    			min-width: 295px;
-    			margin-left: -10px;
     			font-size: 14px;
     		}
 		}
 	}
 
 	.inter-btn-2 {
-		margin-top: 300px;
+		margin-top: 50px;
 
 		a {
-			min-width: 176px;
     		padding-top: 8px;
-    		margin-left: 850px;
-    		padding-bottom: 8px;
+    		margin-left: auto;
+    		margin-right: auto;
     		font-size: 18px;
+    		padding: 8px 40px;
     		font-family: Roboto;
     		color: #FFF;
     		font-weight: 400;
@@ -196,7 +224,6 @@
     		background: #008955;
     		text-align: center;
     		border-radius: 4px;
-    		position: absolute;
     		border: 2px solid #008955;
     		text-decoration: none;
 		}
@@ -214,11 +241,14 @@
 }
 
 .brand {
-	margin-left: 430px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	margin-bottom: 65px;
 
 	img {
-		padding-right: 140px;
+		margin-right: 50px;
+		margin-left: 50px;
 	}
 }
 
@@ -233,6 +263,7 @@
     line-height: 1.33333;
     cursor: pointer;
     text-align: center;
+    opacity: 0.8;
     border-radius: 4px;
     position: absolute;
 
@@ -242,23 +273,20 @@
     	font-weight: 400;
     	font-family: Roboto;
     }
-
-    a:hover {
-    	backgrund-color: #FFF;
-    }
 }
 
-.inter-3 {
-	margin-top: 900px;
+.back-btn-2:hover {
+	background-color: #FFF;
 }
 
 .inter-block-3 {
 	h2 {
-		margin-top: 1000px;
 	    text-align: center;
 	    font-family: Roboto;
 	    font-weight: 400;
 	    color: #4E4E4E;
+	    margin-right: auto;
+	    margin-left: auto;
 	    font-size: 28px;
 	}
 
@@ -267,28 +295,29 @@
 	    font-family: Roboto;
 	    font-weight: 400;
 	    font-size: 20px;
-	    max-width: 673px;
-	    margin-left: 615px;
+	    width: 35%;
+	    margin-left: auto;
+	    margin-right: auto;
 	    color: #4E4E4E;
 	    line-height: 1.4;
 	}
 }
 
 .brand-2 {
-	margin-left: 485px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	margin-top: 100px;
-	margin-bottom: 65px;
 
 	img {
-		padding-right: 110px;
+		margin-right: 40px;
+		margin-left: 40px;
 	}
 }
 
 .inter-4 {
-	height: 425px;
-	position: absolute;
+	height: auto;
 	width: 100%;
-	left: 0;
     background-color: #69696a;
 }
 
@@ -309,7 +338,7 @@
     }
 
     img {
-    	width: 10%;
+    	width: 250px;
     }
 }
 
@@ -343,19 +372,35 @@
 	border-top: 1px dashed #fff;
 
 	p {
-		margin-top: 55px;
-		float: right;
-	    margin-right: 480px;
 	    font-family: Roboto;
-	    max-width: 450px;
+	    width: 47%;
 	    line-height: 1.6;
 	    color: #FFF;
+	}
+
+	.inter-btn-4 {
+		margin-top: 50px;
+
+		a {
+			background-color: #fff;
+		    display: block;
+		    width: 25%;
+		    padding-bottom: 15px;
+		    text-align: center;
+		    padding-top: 15px;
+		    border-radius: 3px;
+		    border: 2px solid #d0d0d0;
+			transition: border-color .2s;
+		   	text-decoration: none;
+		   	color: #777;
+		   	font-family: Roboto;
+		   	font-size: 18px;
+		    font-weight: 400;
+	    }
 	}
 }
 
 .inter-btn-3 {
-	margin-left: 976px;
-
 	a {
 		color: #FFF;
 		font-family: Roboto;
@@ -365,23 +410,4 @@
     a:hover {
     	text-decoration-color: #B7B7B7;
     }
-}
-
-.inter-btn-4 a {
-   	margin-top: -84px;
-	background-color: #fff;
-    display: block;
-    max-width: 420px;
-    padding-bottom: 15px;
-    text-align: center;
-    margin-left: 490px;
-    padding-top: 15px;
-    border-radius: 3px;
-    border: 2px solid #d0d0d0;
-	transition: border-color .2s;
-   	text-decoration: none;
-   	color: #777;
-   	font-family: Roboto;
-   	font-size: 18px;
-    font-weight: 400;
 }
