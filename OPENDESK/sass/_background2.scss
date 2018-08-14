@@ -3,9 +3,7 @@
 \***************/
 
 
-body {
-	margin: 0;
-}
+body { margin: 0; }
 
 /***************\
 	BACK
@@ -13,20 +11,30 @@ body {
 
 .back {
 	position: relative;
-	width: 100%;
 	height: 850px;
+	background-image: url('../img/opendesk_shot3_2045_edit.full.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-	img {
-		width: 100%;
-		height: 100%;
-	}
+.back-2 {
+	position: relative;
+	height: 850px;
+	background-image: url('../img/opendesk_homepage_maker-feature_renatus.full.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.back-3 {
+	position: relative;
+	height: 850px;
+	background-image: url('../img/opendesk_homepage_workplace-feature_old-oak.full.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .cache {
-	width: 100%;
 	height: 100%;
-	position: absolute;
-	top: 0;
 	background-color: #000;
 	opacity: 0.3;
 }
@@ -58,7 +66,7 @@ body {
 }
 
 .back-btn {
-    min-width: 176px;
+	width: 20%;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-left: 470px;
@@ -68,7 +76,6 @@ body {
     background: #008955;
     text-align: center;
     border-radius: 4px;
-    position: absolute;
     border: 2px solid #008955;
 
     a {
@@ -79,16 +86,13 @@ body {
     }
 }
 
-.back-btn:hover {
-	background-color: #166816;
-}
+.back-btn:hover { background-color: #166816; }
 
 /***************\
 	INTER-DIV
 \***************/
 
 .inter {
-	height: 437px;
 	text-align: center;
 	padding-top: 50px;
 }
@@ -99,6 +103,7 @@ body {
 	padding-right: 50px;
 	width: 19%;
 	display: inline-block;
+	margin-bottom: 50px;
 
 	img {
 		width: 100%;
@@ -122,8 +127,6 @@ body {
 }
 
 .inter-btn {
-	text-align: center;
-	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -141,18 +144,15 @@ body {
 
 .background {
 	background-color: #f1f1f1;
-	height: 500px;
+	height: 400px;
 }
 
 .inter-2 {
-	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-bottom: 50px;
 
 	h2 {
-		text-align: center;
     	padding-top: 53px;
     	font-family: Roboto;
     	font-weight: 300;
@@ -168,24 +168,16 @@ body {
 		margin-right: auto;
 		display: inline-block;
 		margin-top: 20px;
-		text-align: center;
-
-		img {
-			width: 50%;
-			height: 105px;
-			text-align: center;
-		}
 	
 		.inter-btn {
-	    	text-align: center;
-	    	width: 78%;
+	    	width: 70%;
 
     		h2 {
     			font-family: Roboto;
 				font-size: 19px;
 				font-weight: 400;
 				text-transform: none;
-				padding-top: 0;
+				padding-top: 25px;
 				margin-left: auto;
 				margin-right: auto;
     		}
@@ -201,9 +193,7 @@ body {
     			text-decoration-color: green;
     		}
 
-    		p {
-    			font-size: 14px;
-    		}
+    		p { font-size: 14px; }
 		}
 	}
 
@@ -212,8 +202,6 @@ body {
 
 		a {
     		padding-top: 8px;
-    		margin-left: auto;
-    		margin-right: auto;
     		font-size: 18px;
     		padding: 8px 40px;
     		font-family: Roboto;
@@ -222,15 +210,12 @@ body {
     		line-height: 1.33333;
     		cursor: pointer;
     		background: #008955;
-    		text-align: center;
     		border-radius: 4px;
     		border: 2px solid #008955;
     		text-decoration: none;
 		}
 
-		a:hover {
-			background-color: #166816;
-		}
+		a:hover { background-color: #166816; }
 	}
 }
 
@@ -241,8 +226,6 @@ body {
 }
 
 .brand {
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	margin-bottom: 65px;
 
@@ -255,7 +238,7 @@ body {
 .back-btn-2 {
     background-color: #dcdcdd;
     border: 2px solid #dcdcdd;
-	min-width: 185px;
+    width: 22%;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-left: 470px;
@@ -265,7 +248,6 @@ body {
     text-align: center;
     opacity: 0.8;
     border-radius: 4px;
-    position: absolute;
 
     a {
     	color: #323233;
@@ -275,9 +257,7 @@ body {
     }
 }
 
-.back-btn-2:hover {
-	background-color: #FFF;
-}
+.back-btn-2:hover { background-color: #FFF; }
 
 .inter-block-3 {
 	h2 {
@@ -315,11 +295,7 @@ body {
 	}
 }
 
-.inter-4 {
-	height: auto;
-	width: 100%;
-    background-color: #69696a;
-}
+.inter-4 { background-color: #69696a; }
 
 .logo {
 	padding-top: 18px;
@@ -328,7 +304,6 @@ body {
     padding-bottom: 15px;
 
     a {
-        margin-top: 30px;
 	    text-align: center;
 	    font-family: Roboto;
 	    color: #FFF;
@@ -337,9 +312,7 @@ body {
 	    letter-spacing: 2px;
     }
 
-    img {
-    	width: 250px;
-    }
+    img { width: 250px; }
 }
 
 .menu {
@@ -355,9 +328,7 @@ body {
 	}
 }
 
-.menu-item:hover {
-	text-decoration-color: #B7B7B7;
-}
+.menu-item:hover { text-decoration-color: #B7B7B7; }
 
 .menu-item:not(:first-child):before {
 	transition-duration: 0.3s;
@@ -373,18 +344,20 @@ body {
 
 	p {
 	    font-family: Roboto;
-	    width: 47%;
+	    width: 63%;
 	    line-height: 1.6;
 	    color: #FFF;
 	}
 
 	.inter-btn-4 {
-		margin-top: 50px;
+		margin-top: 28px;
+		width: 40%;
+		float: left;
 
 		a {
 			background-color: #fff;
 		    display: block;
-		    width: 25%;
+		    width: 55%;
 		    padding-bottom: 15px;
 		    text-align: center;
 		    padding-top: 15px;
@@ -400,14 +373,12 @@ body {
 	}
 }
 
-.inter-btn-3 {
-	a {
-		color: #FFF;
-		font-family: Roboto;
-		font-size: 16px;
-	}
+.inter-btn-3 a {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 16px;
+}
 
-    a:hover {
-    	text-decoration-color: #B7B7B7;
-    }
+.inter-btn-3 a:hover {
+   	text-decoration-color: #B7B7B7;
 }
